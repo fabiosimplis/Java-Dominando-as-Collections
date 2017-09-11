@@ -1,0 +1,7 @@
+Java: Dominando as Collections Java: Dominando as Collections
+-------------------------------------------------------------
+1 - Trabalhando com ArrayList
+- Adicionando elementos em um ArrayList
+- Removendo elementos de uma lista
+- Acessando elementos da lista
+- Ordenando uma lista

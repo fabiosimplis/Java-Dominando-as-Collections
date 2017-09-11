@@ -1,4 +1,4 @@
-Java: Dominando as Collections Java: Dominando as Collections
+Java: Dominando as Collections
 -------------------------------------------------------------
 1 - Trabalhando com ArrayList
 - Adicionando elementos em um ArrayList

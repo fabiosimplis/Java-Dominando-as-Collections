@@ -1,5 +1,11 @@
 Java: Dominando as Collections
 -------------------------------------------------------------
+2 - Listas de objetos
+- Criando listas a partir de objetos próprios
+- Reescrevendo o toString da classe Aula
+- Definindo um critério de comparação na classe Aula
+- Ordenando com Java 8
+-------------------------------------------------------------
 1 - Trabalhando com ArrayList
 - Adicionando elementos em um ArrayList
 - Removendo elementos de uma lista

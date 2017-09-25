@@ -1,5 +1,14 @@
 Java: Dominando as Collections
 -------------------------------------------------------------
+3 - Relacionamentos com coleções
+> O que aprendemos neste capítulo:
+-> A implementação LinkedList.
+->Encapsulamento e princípios de Orientação a Objeto.
+->Programação defensiva.
+
+- Criando relacionamentos com coleções.
+— Adicionando novas aulas em um Curso.
+-------------------------------------------------------------
 2 - Listas de objetos
 - Criando listas a partir de objetos próprios
 - Reescrevendo o toString da classe Aula

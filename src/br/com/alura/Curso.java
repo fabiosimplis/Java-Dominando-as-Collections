@@ -22,7 +22,7 @@ public class Curso {
 
     public void adiciona(Aula aula)
     {
-    	aulas.add(aula);
+    	this.aulas.add(aula);
     }
     
     public String getInstrutor() {

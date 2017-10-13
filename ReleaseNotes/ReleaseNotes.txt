@@ -1,5 +1,26 @@
 Java: Dominando as Collections
 -------------------------------------------------------------
+3 - Relacionamentos com coleções
+> O que aprendemos neste capítulo:
+-> A implementação LinkedList.
+->Encapsulamento e princípios de Orientação a Objeto.
+->Programação defensiva.
+
+- Criando relacionamentos com coleções.
+— Adicionando novas aulas em um Curso.
+- Encapsulando o acesso às aulas.
+—> Collections.unmodifiableList(), para que não seja mais possível alterar o valor  dessa lista por fora da própria classe.
+->criar um método adiciona que permite adicionar novas aulas na lista.
+- Diferença entre ArrayList e LinkedList:
+-> ArrayList: é um vetor o próprio array:
+-> LinkedList: é uma lista:
+-------------------------------------------------------------
+2 - Listas de objetos
+- Criando listas a partir de objetos próprios
+- Reescrevendo o toString da classe Aula
+- Definindo um critério de comparação na classe Aula
+- Ordenando com Java 8
+-------------------------------------------------------------
 1 - Trabalhando com ArrayList
 - Adicionando elementos em um ArrayList
 - Removendo elementos de uma lista

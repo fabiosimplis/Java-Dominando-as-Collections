@@ -1,6 +1,7 @@
 package br.com.alura;
 
 
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -19,11 +20,18 @@ public class Curso {
         return nome;
     }
 
+    public void adiciona(Aula aula)
+    {
+    	aulas.add(aula);
+    }
+    
     public String getInstrutor() {
         return instrutor;
     }
 
     public List<Aula> getAulas() {
-        return aulas;
+    	// Faz com que o valor da lista nao possa ser alterado 
+    	// fora da propia classe 
+        return Collections.unmodifiableList(aulas);
     }
 }

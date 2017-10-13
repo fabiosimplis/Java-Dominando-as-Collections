@@ -10,10 +10,9 @@ public class TestaCurso {
 		
 		List<Aula> aulas = prog.getAulas();
 		
-		prog.getAulas().add(new Aula("Tipos de Dados", 30));
-		prog.getAulas().add(new Aula("Declaracao de variaveis", 15));
-		prog.getAulas().add(new Aula("Operadores", 10));
-		
+		prog.adiciona(new Aula("Tipos de Dados", 30));
+		prog.adiciona(new Aula("Declaracao de variaveis", 15));
+		prog.adiciona(new Aula("Operadores", 10));
 		
 		
 		//adiciona aulas

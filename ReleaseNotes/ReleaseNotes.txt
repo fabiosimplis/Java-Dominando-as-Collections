@@ -1,5 +1,10 @@
 Java: Dominando as Collections
 -------------------------------------------------------------
+4 - Mais práticas com relacionamentos:
+> O que aprendemos neste capitulo:
+--> Uma solução para o unmodifiable list.
+--> Stream do Java 8.
+-------------------------------------------------------------
 3 - Relacionamentos com coleções
 > O que aprendemos neste capítulo:
 -> A implementação LinkedList.

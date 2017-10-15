@@ -28,6 +28,22 @@ public class Curso {
     public String getInstrutor() {
         return instrutor;
     }
+    
+    public int getTempoTotal()
+    {
+    	int tempoTotal = 0;
+    	
+    	for (Aula aula : aulas)
+    	{
+    		tempoTotal += aula.getTempo();
+		}
+    	
+    	return tempoTotal;
+    	
+    	//Java 8 utilizando stream
+    	//return this.aulas.stream().mapToInt(Aula::getTempo).sum();
+    	
+    }
 
     public List<Aula> getAulas() {
     	// Faz com que o valor da lista nao possa ser alterado 

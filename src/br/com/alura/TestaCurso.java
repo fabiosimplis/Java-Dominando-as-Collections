@@ -30,7 +30,8 @@ public class TestaCurso {
 		Collections.sort(aulas);
 		System.out.println(aulas);
 		
-		
+		//imprime tempo total do curso
+		System.out.println(prog.getTempoTotal());
 		
 		
 	}

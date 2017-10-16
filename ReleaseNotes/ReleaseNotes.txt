@@ -1,5 +1,11 @@
 Java: Dominando as Collections
 -------------------------------------------------------------
+6 - Aplicando o Set no modelo:
+- Criação da classe aluno
+- Encapsulando o set;
+-> adição do método que adiciona o aluno;
+-> adição do método que devolve o set de maneira não modificavel; 
+-------------------------------------------------------------
 4 - Mais práticas com relacionamentos:
 > O que aprendemos neste capitulo:
 --> Uma solução para o unmodifiable list.

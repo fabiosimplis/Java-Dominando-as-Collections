@@ -6,7 +6,7 @@ import java.util.Set;
 public class ImprimindoAlunos {
 
 	public static void main(String[] args) {
-		Set<String> alunos = new HashSet<>();
+		Set<String> alunos = new HashSet<>();// muito mais rapido que o list, porem nao ha ordem ao adicionar
         alunos.add("Paulo");
         alunos.add("Alberto");
         alunos.add("Pedro");    

@@ -31,8 +31,12 @@ public class TestaCurso {
 		System.out.println(aulas);
 		
 		//imprime tempo total do curso
+		System.out.println("Tempo total:");
 		System.out.println(prog.getTempoTotal());
 		
+		//Imprime curso:
+		System.out.println("\nCurso: ");
+		System.out.println(prog);
 		
 	}
 }

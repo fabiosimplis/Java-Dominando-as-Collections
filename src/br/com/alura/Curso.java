@@ -45,9 +45,17 @@ public class Curso {
     	
     }
 
-    public List<Aula> getAulas() {
+    public List<Aula> getAulas() 
+    {
     	// Faz com que o valor da lista nao possa ser alterado 
     	// fora da propia classe 
         return Collections.unmodifiableList(aulas);
+    }
+    
+    @Override
+    public String toString() 
+    {
+    	
+    	return "[Curso: "+ nome + ", Tempo Total: "+ getTempoTotal() + ", Aula: [" + getAulas() + "]";
     }
 }

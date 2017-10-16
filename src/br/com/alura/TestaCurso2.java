@@ -1,5 +1,7 @@
 package br.com.alura;
 
+import java.util.Set;
+
 public class TestaCurso2 {
 
 	public static void main(String[] args) {
@@ -19,6 +21,12 @@ public class TestaCurso2 {
 		prog2.matricula(a2);
 		prog2.matricula(a3);
 		
+		Set<Aluno> alunos = prog2.getAlunos();
+		
+//		//Tentativa de adicionar alunos 
+//		System.out.println("Tentativa de add alunos no set");
+//		boolean adicionou = alunos.add(new Aluno("Mario", 000004));
+//		System.out.println("Adicionou? " + adicionou);
 	}
 		
 }

@@ -31,4 +31,17 @@ public class Aluno {
 		
 	}
 	
+	@Override
+    public boolean equals(Object obj) {
+    	
+    	Aluno aluno = (Aluno) obj;
+    	
+    	return this.nome.equals(aluno.nome);
+    }
+	
+	@Override
+	public int hashCode() {
+		
+		return nome.hashCode();
+	}
 }

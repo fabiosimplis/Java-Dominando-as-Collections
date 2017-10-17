@@ -19,6 +19,14 @@ public class TestaCurso2 {
 		prog2.matricula(a2);
 		prog2.matricula(a3);
 		
+		Aluno a4 = new Aluno("Fabio", 000213);
+		Aluno a5 = new Aluno("Henrique", 931083);
+		
+		//teste para ver se esta matriculado
+		boolean matriculado = prog2.estaMatriculado(a4);
+		System.out.println("O aluno: "+ a4.getNome() +" Esta matriculado: "+ matriculado);
+		System.out.println("O aluno: "+ a5.getNome() +" Esta matriculado: "+ prog2.estaMatriculado(a5));
+		
 	}
 		
 }

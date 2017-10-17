@@ -7,6 +7,9 @@ public class Aluno {
 	
 	
 	public Aluno(String nome, int numeroMatricula) {
+		if (nome == null) {
+			throw new NullPointerException("Nome do aluno esta vazio!\n favor verificar!");
+		}
 		this.nome = nome;
 		this.numeroMatricula = numeroMatricula;
 	}

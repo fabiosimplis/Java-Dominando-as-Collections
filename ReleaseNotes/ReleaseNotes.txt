@@ -1,5 +1,14 @@
 Java: Dominando as Collections
 -------------------------------------------------------------
+7 - Equal e Hashcode:
+-O que aprendemos neste capítulo:
+-> Implementação das nossas próprias regras de comparação entre objetos de uma mesma classe.
+-> Sobrescrita do método equals.
+-> A necessidade de sobrescrever o método hashCode quando o equals for sobrescrito.
+- Verificandose está matriculado
+-> Adicionado o sobrescrita do metodo hashCode, e o equals.
+- Programando defensivamente
+-------------------------------------------------------------
 6 - Aplicando o Set no modelo:
 - Criação da classe aluno
 - Encapsulando o set;
